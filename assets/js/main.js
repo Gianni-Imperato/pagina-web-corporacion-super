@@ -6,6 +6,15 @@
 * License: https://bootstrapmade.com/license/
 */
 
+window.addEventListener('load', function() {
+  AOS.refresh();
+});
+
+/*ESTO SOLUCIONÓ EL RETRASO DE LAS ANIMACIONES DEL CONTENIDO EN LA PÁGINA */
+setTimeout(function() {
+  AOS.init();
+}, 300);
+
 (function() {
   "use strict";
 

@@ -2061,6 +2061,11 @@ Imagen de fondo de la tienda especifica
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .starter-section {
   /* Add your styles here */
 }

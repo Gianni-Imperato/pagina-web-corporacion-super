@@ -1899,12 +1899,12 @@ section,
 }
 
 /* -------------------------------------------------------------
-Imagen de fondo de la tienda especifica 
+Redirección Super Casanova 
 ----------------------------------------------------------------*/
 
  /* Estilos para la sección .heading */
 .heading {
-  background-image: url('file:///C:/Users/USER/Downloads/Gp/assets/img/imagenFondoTiendaCasanova.jpg'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen */
+  background-image: url('file:///C:/Users/USER/Downloads/Gp/assets/img/imagenFondoCasanova.jpg'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen */
   background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -1919,7 +1919,7 @@ Imagen de fondo de la tienda especifica
 /* Ajustes adicionales para el texto dentro de .heading */
 .heading h1,
 .heading p {
-  color: #000000; /* Cambia el color del texto si es necesario */
+  color: #ffffff; /* Cambia el color del texto si es necesario */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al texto para mejorar la legibilidad */
 }
 

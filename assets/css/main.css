@@ -938,6 +938,16 @@ section,
 }
 /*--------------------------------------------------------------------
 
+/*--------------------------------------------------------------------
+# Sección para cambiar el color del h2 en las tiendas */
+.resaltar2 {
+  color: #ffffff;           /* Color principal (cámbialo) */
+  font-weight: bold;        /* Negrita */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* Sombra opcional */
+  /* Otros efectos: */
+  font-size: 1.1em;         /* Tamaño de fuente */
+  letter-spacing: 1px;      /* Espaciado entre letras */
+}
 
 /*--------------------------------------------------------------
 # About Section
@@ -1903,25 +1913,34 @@ Redirección Super Casanova
 ----------------------------------------------------------------*/
 
  /* Estilos para la sección .heading */
-.heading {
-  background-image: url('file:///C:/Users/USER/Downloads/Gp/assets/img/imagenFondoCasanova.jpg'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen */
-  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  height: 526px; /* Altura fija para que coincida con la altura de la imagen */
-  width: 100%; /* Ancho completo para que se ajuste al contenedor */
-  display: flex; /* Usamos flexbox para centrar el contenido verticalmente */
-  align-items: center; /* Centra el contenido verticalmente */
-  justify-content: center; /* Centra el contenido horizontalmente */
-  color: #000000; /* Cambia el color del texto si es necesario para que sea legible sobre la imagen */
+ .heading.heading-con-imagen {
+  position: relative;
+  height: 526px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-/* Ajustes adicionales para el texto dentro de .heading */
-.heading h1,
-.heading p {
-  color: #ffffff; /* Cambia el color del texto si es necesario */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al texto para mejorar la legibilidad */
+.heading.heading-con-imagen .imagen-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
+
+.heading.heading-con-imagen .contenido-heading {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+  padding: 20px;
+}
+
 
 
 /*--------------------------------------------------------------

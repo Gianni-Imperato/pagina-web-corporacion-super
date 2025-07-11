@@ -2077,6 +2077,23 @@ Redirección Super Casanova
   color: var(--accent-color);
 }
 
+/* Estilo para Listados de Contactos en Tiendas */
+.contact-list li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.contact-list a {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+  color: #25D366; /* Color oficial de WhatsApp */
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/

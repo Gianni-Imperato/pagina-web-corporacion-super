@@ -60,6 +60,26 @@
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
+
+/* Estilo para el eslogan de la sección "Nosotros" */
+.highlight-box {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.highlight-text {
+  font-size: 0.8rem; /* Tamaño más grande */
+  font-weight: 600;
+  line-height: 1.6;
+  color: #212529;
+  margin: 0;
+}
+
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -953,7 +973,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
